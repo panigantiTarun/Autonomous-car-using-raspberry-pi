@@ -1,0 +1,34 @@
+Abstract—Around the world, there has been an increase in traffic accidents over the fast few years, and even wealthy
+nations like US are not immune to this issue. According to statistics, there were more than 1 million accident fatalities in
+2020. This demonstrates the problem’s egregious gravity andneed for the prompt attention. Numerous unpredicted outcomes,
+including unnatural fatalities, permanent injuries, lost wages,etc., are brought on by road accidents. The main contributors
+to these unanticipated collisions are driving when distracted,fatigued, going too fast , breaking traffic laws, and driving while
+intoxicated, among other things. Basically human wants safetyand comfort to lead happy life. To achieve this, current world
+trying to summon for automation in transportation. Automation is involved in transportation to reduce human involvement in
+transportation and to increase the human safety. To get around these constraints we aimed to design an effective and trustworthy
+prototype of FPGA controlled self-driving car. Our design based on the concepts of image processing, CNN, computer vision,
+Machine learning to achieve basic features like lane detection,object detection and collision avoidance. our model is able to
+sense the surroundings and make decisions according to it without human involvement. It detects the lane lines and objects
+through the camera and LIDAR sensor attached to it and calculates the distance of the objects from the car for proper
+and accurate decision making using image processing through
+OpenCV. 
+
+A. Lane detection
+
+In self-driving cars lane detection plays one of the chief role.To acheive this we use algorithms like Hough transform(It
+is a feature extraction technique used in image processing and com- puter vision to detect regular shapes, such as lines,
+circles, and ellipses in digital images.), Canny edge detection(An algorithm used to detect the edges of the real time
+objects)etc., It is accomplished through image processing in OpenCV. After dectecting the lanes path planning was done.
+
+B. Object detection
+
+Object detection is a key component in the self-driving cars by combining with the sensors, which helps in decision
+making and motion control while ensuring the stability of the vehicle.In our system we perform Object detection using
+YOLO (You Only Look Once) algorithm which incorporated with non-maximum sup- pression and Intersection Over
+Union(IOU) through image processing in OpenCV.
+
+C. Collision Avoidance
+
+Whenever we have a thought of transportation one thing we always fear about is collisions highly called as acccidents.
+Using decision making we achieve this very accurately. In our design controlling part helps a lot to grab this collision
+avoidance efficiently.
